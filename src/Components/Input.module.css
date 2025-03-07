@@ -1,0 +1,48 @@
+.label {
+  display: inline-block;
+  color: white;
+  font-family: var(--type-first);
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  margin-top: 1.25rem;
+}
+.label:first-child {
+  margin-top: 0;
+}
+.input {
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  background: #0b0534;
+
+  border: 1px solid #a4a2ae;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 0px 2px transparent;
+  color: black;
+  transition: 0.3s;
+}
+.input:hover,
+.input:focus,
+.active {
+  outline: none;
+  background: white;
+
+  border: solid 1px #0b0534;
+  box-shadow: 0px 0px 0px 2px #04c1fb;
+}
+
+.inputContainer {
+  display: flex;
+  position: relative;
+}
+.hideIcon {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: -36px;
+  display: flex;
+  align-self: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

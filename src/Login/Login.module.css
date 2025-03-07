@@ -1,0 +1,33 @@
+.loginContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loginForm h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-family: var(--type-first);
+}
+.loginForm {
+  align-self: center;
+}
+.loginForm p {
+  margin-top: 2.87rem;
+}
+.LoginIMG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30rem;
+  max-height: 30rem;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.25rem;
+  gap: 20px;
+}
